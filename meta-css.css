@@ -18,10 +18,11 @@ hr {
     height: 3px; 
     background-color: blue;
     width: 80%; 
+    margin-top: 50px;
 }
 h1, h2, p {
     text-align: center;
-
+    
 }
 #logos {
     text-align: center;
@@ -34,6 +35,7 @@ img {
 #topics {
     line-height: 1.5em;
     margin: 0 auto;
+    width: 50%;
 }
 .list {
     list-style-type: none;

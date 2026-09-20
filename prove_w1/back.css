@@ -1,0 +1,63 @@
+/*  text and stuff */
+#content {
+    width: 530px;
+    margin: 70px auto;
+}
+
+/* main title */
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+/* subtitle */
+#blue {
+    text-align: center;
+    color: #2e8cdf;
+    font-size: 13px;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+/* main paragraphs */
+#content > p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+/* slanted */
+#slant {
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.list {
+    list-style-type: decimal;
+    padding-left: 35px;
+    margin-top: 0;
+}
+
+
+.list li {
+    padding-left: 2px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: static;
+    margin-top: 50px;
+}
