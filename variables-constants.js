@@ -22,4 +22,4 @@ if (true) {
 }
 console.log(course); //works fine, course is global
 console.log(student); //does not work, can't access a block variable outside the block
-                    
+            
