@@ -60,3 +60,31 @@ img {
     width: static;
     margin-top: 50px;
 }
+
+#dark-toggle {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  appearance: block;
+  width: 44px;
+  height: 24px;
+  border-radius: 12px;
+  background: #999;
+  cursor: pointer;
+}
+#toggle-label {
+  position: fixed;
+  top: 0px;
+  left: 10px;
+}
+
+#dark-toggle:checked 
+{ background: #333; }
+
+body.dark-mode 
+{ background: #222; 
+  color: white; }
+  
+body.dark-mode img {
+  filter: grayscale(0.9) invert(0.9);
+}
