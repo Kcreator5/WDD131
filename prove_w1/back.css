@@ -61,6 +61,7 @@ img {
     margin-top: 50px;
 }
 
+/* this makes the dark mode toggle into a box */
 #dark-toggle {
   position: fixed;
   top: 16px;
@@ -72,19 +73,22 @@ img {
   background: #999;
   cursor: pointer;
 }
+/* this makes the label for the box */
 #toggle-label {
   position: fixed;
   top: 0px;
   left: 10px;
 }
-
+/* this changes the background color when the toggle is checked */
 #dark-toggle:checked 
 { background: #333; }
 
+/* this changes the background and text color black */
 body.dark-mode 
 { background: #222; 
   color: white; }
-  
+
+/* this changes the image, this was like the best combination I was able to find in a time frame */
 body.dark-mode img {
   filter: grayscale(0.9) invert(0.9);
 }
