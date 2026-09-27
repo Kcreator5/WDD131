@@ -88,7 +88,8 @@ body.dark-mode
 { background: #222; 
   color: white; }
 
-/* this changes the image, this was like the best combination I was able to find in a time frame */
+/* this changes the image, this was like the best combination I was able to find in a time frame 
 body.dark-mode img {
   filter: grayscale(0.9) invert(0.9);
 }
+  */
