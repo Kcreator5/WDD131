@@ -23,7 +23,7 @@ header, body
 nav a {
     padding: 20px;
     color: black;
-    display: none;
+    display: block;
     flex-direction: column;
     align-items: center;
 }
@@ -71,9 +71,42 @@ footer {
     object-fit: cover; 
     border: 5px solid #ffffff;
 }
+figure img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    display: block;
+    margin: 0 auto;
+}
 h2 {
     text-align: center;
 }      
+
+dialog img {
+    width: 90%;
+    display: block;
+    margin: 20vh auto;
+}
+dialog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+}
+
+.close-viewer {
+    position: absolute;
+    top: 10vh;
+    right: 2vh;
+    padding: 3px 6px;
+    font-size: 1.5em;
+}
+
+.hide {
+    display: none;
+}
 
 @media screen and (min-width: 700px) {
     .menu-btn {
@@ -85,6 +118,9 @@ h2 {
     }
     nav a {
         display: inline;
+    }
+    .hide {
+    display: inline;
     }
     nav {
         display: flex;
@@ -100,6 +136,9 @@ h2 {
     .menu-btn {
         display: none;
     }
+    .hide {
+    display: inline;
+    }
 
     nav {
         display: block;
@@ -109,5 +148,6 @@ h2 {
         display:grid; 
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
 }
-   
+
