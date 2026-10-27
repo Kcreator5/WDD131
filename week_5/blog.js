@@ -40,8 +40,10 @@ const articles = [
 	}
 ];
 
-const articaleList = document.querySelector('#main-content');
-
+const articleList = document.querySelector('#main-content');
+articles.forEach(articles => {
+const article = document.createElement('article');
+article.className = 'articles';
 let html = `
     <article class="book-review">
 
@@ -66,6 +68,7 @@ let html = `
             </section>
 
         </article>
-        articleList.innerHTML += html; 
 `
-                
+    article.innerHTML = html; 
+    articleList.appendChild(article);
+    });
