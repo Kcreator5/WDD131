@@ -42,10 +42,11 @@ const movies = [
         stars: "⭐⭐⭐⭐"
       }
     ];
-    const mivieList = document.querySelector('#movie-list');
-    movies.forEach(movie => {
-    const artical = document.createElement('article');
-    article.className = 'movie';
+
+const movieList = document.querySelector('#movie-list');
+movies.forEach(movie => {
+const article = document.createElement('article');
+article.className = 'movie';
        
 let  html = `
       <h2>${movie.tite}</h2>
@@ -56,9 +57,7 @@ let  html = `
       <p><strong>Rating:</strong><span aria-label="${movie.stars.length} out of 5 stars" role ="img">${movie.stars}</span></p>
       <p id='desc'>${movie.description}</p>
 
-
+    `
     article.innerHTML = html; 
     movieList.appendChild(article);
-    `
-    
     });
